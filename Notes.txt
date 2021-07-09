@@ -25,3 +25,16 @@ $ jekyll new
 Layout: different ways you want a website to look, and you can specify for every .markdown file a different layout.
 
 Folder _layouts: custom folder jekyll knows where the custom pages are.
+
+
+
+# Project structure
+
+_includes/ -> contains html for elements you'd repeatedly use, usually called "partials"
+_layouts/ -> templates for different types of pages
+_posts/ -> contains .md and .html blog posts
+_sass/ -> contains styling for website that turns css for our site
+assets/ -> possibly other .css or .scss files
+img/ -> contains images
+
+_config.yml -> store our site configuration data (config and global variables)
