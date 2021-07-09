@@ -1,4 +1,4 @@
-title: My portfolio
+title: Welcome to my portfolio 😊
 email: albertperezdatsira@gmail.com
 description: Personal portfolio by albeertito7
 author: Albert Pérez Datsira
@@ -33,3 +33,6 @@ exclude:
   - Notes.txt
   - README.*
   - Gemfile*
+  - contact.md
+  - blog.md
+  - about.md
