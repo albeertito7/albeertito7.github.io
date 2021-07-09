@@ -263,6 +263,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 209)
+  jekyll-swiss (~> 1.0)
 
 BUNDLED WITH
    2.2.2
