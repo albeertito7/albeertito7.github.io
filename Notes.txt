@@ -19,3 +19,9 @@ To create a new Jekyll site, use:
 
 $ jekyll new
 # creates a Jekyll site in the current directory
+
+
+
+Layout: different ways you want a website to look, and you can specify for every .markdown file a different layout.
+
+Folder _layouts: custom folder jekyll knows where the custom pages are.
