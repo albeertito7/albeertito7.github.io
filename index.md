@@ -20,7 +20,7 @@ const albeertito7 = (() => {
                 java: ['Spring']
             },
             mobile: ['Android', 'Flutter'],
-            devOps: ['Heroku', 'Nginx', ],
+            devOps: ['Heroku', 'Nginx', 'Netlify', 'Github Pages'],
             databases: ['MySQL', 'PostgreSQL', 'Microsoft SQL Server', 'Firebase Realtime DB', 'Cloud Firestore', 'MongoDB'],
             misc: ['Git', 'CI/CD']
         }
