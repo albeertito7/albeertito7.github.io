@@ -28,3 +28,8 @@ google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
 
 # External themes
 #theme: jekyll-swiss
+
+exclude:
+  - Notes.txt
+  - README.*
+  - Gemfile*
