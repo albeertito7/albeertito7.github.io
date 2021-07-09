@@ -1,0 +1,21 @@
+Notes:
+
+- Ruby: is an interpreted, high-level, general-purpose programming language similar to python. Most used for building web applications, but has many other applications like data analysis, prototyping, and proof of concepts.
+- Ruby Rails: the most obvious implementation of Ruby. The development framework built with Ruby.
+- RubyGems (gem): is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries (in a self-contained format called a "gem"), a tool designed to easily manage the installation of gems, and a server for distributing them.
+- Bundler: provides a consistent environment for Ruby projects by tracking and installing the exact "gems" and versions that are needed. Ensures the "gems" you need are present in development, staging, and production. Starting work on a project is as simple as "bundle install".
+- Jekyll: is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site's look and feel, URLs, the data displayed on the page, and more.
+
+
+Get Started:
+
+- Install Ruby
+- Install Bundler
+- Install Jekyll
+- Install Git
+
+
+To create a new Jekyll site, use:
+
+$ jekyll new
+# creates a Jekyll site in the current directory
