@@ -1,7 +1,5 @@
 ---
-layout: test
-permalink: /about/
+layout: page
+permalink: /about
 ---
 # About me
-
-[asdf]:{% include partial.html %}
