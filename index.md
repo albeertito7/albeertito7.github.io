@@ -2,7 +2,7 @@
 layout: page
 ---
 
-### Comming new contents soon ☕☕☕☕
+### Coming new contents soon ☕☕☕☕
 ### for now, a little about me 👇👇
 
 ```js
