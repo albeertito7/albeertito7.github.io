@@ -1,0 +1,87 @@
+nav *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* to shrink the extra width for any element */
+    font-family: 'Nunito'; /* Poppins? */
+    color: white;
+}
+
+nav div {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px cornflowerblue solid;
+    background: #2f2f2f;
+    min-height: 7vh;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .custom-container {
+    width: 60%;
+    /* padding: 5px 50px; */
+}
+
+.container {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.logo {
+    flex: 0 0 30%;
+}
+
+.logo > h4 {
+    font-family: 'Pattaya' !important;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.nav-items {
+    max-width: 300px;
+    flex: 0 0 40%;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-toggler {
+    display: none;
+    background-color: transparent; /* to get automatically the nav background color */
+    /* font-size: 1.25rem; */
+}
+
+.nav-toggler-icon {
+    display: block;
+    width: 2em;
+    height: 2em;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+@media(max-width: 900px) {
+    .nav-toggler {
+        display: inline-block;
+    }
+
+    .nav-items {
+        display: none;
+    }
+}
