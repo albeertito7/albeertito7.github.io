@@ -3,7 +3,7 @@ layout: home
 title: albeertito7
 ---
 
-### Comming new contents soon ☕☕☕☕
+### Coming new contents soon ☕☕☕☕
 ### for now, a little about me 👇👇
 
 ```js
@@ -28,6 +28,12 @@ const albeertito7 = (() => {
     }
 })(always_learning, daily_coding)😇
 ```
+
+🏆  Github Profile Stats
+<p align="left">
+	<img height="180" src="https://github-readme-stats.vercel.app/api?username=albeertito7&count_private=true&include_all_commits=true&show_icons=true&theme=dark" alt="Github Stats"/>
+	<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=albeertito7&hide=php&layout=compact&langs_count=7&theme=dark" alt="Github Top Languages" />
+</p>
 
 [Curriculum vitae][1]
 
