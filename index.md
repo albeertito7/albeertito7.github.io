@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: home
+title: albeertito7
 ---
 
 ### Comming new contents soon ☕☕☕☕
