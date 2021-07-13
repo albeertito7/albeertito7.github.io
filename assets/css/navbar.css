@@ -90,3 +90,9 @@ nav .custom-container {
     margin-top: 15px !important;
     margin-bottom: 15px !important;
 }
+
+/* highglight-js language specific css */
+div.highlight {
+    overflow-x: auto;
+    padding: 10px;
+}
