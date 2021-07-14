@@ -89,7 +89,7 @@ nav .custom-container {
         display: none;
     }
 
-    .container, .container nav {
+    .container, nav .custom-container {
         width: 82%;
     }
 
