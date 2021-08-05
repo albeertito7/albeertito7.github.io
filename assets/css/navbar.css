@@ -47,6 +47,7 @@ nav .custom-container {
     font-family: 'Pattaya' !important;
     font-size: 18px;
     letter-spacing: 2px;
+    white-space: nowrap;
 }
 
 .nav-items {
