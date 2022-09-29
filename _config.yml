@@ -1,9 +1,16 @@
+## Jekyll Configuration ##
+# jekyll gives you a lot of flexibility to customize how it builds your site.
+# these options can either be specified in a _config.yml or _config.toml file,
+# placed in your site's root directory.
+# https://jekyllrb.com/docs/configuration/
+
+# Main config
 title: Welcome 😊
 email: albertperezdatsira@gmail.com
 description: Personal portfolio by albeertito7
 author: Albert Pérez Datsira
-baseurl: "https://albeertito7.github.io"
 url: "https://albeertito7.github.io"
+favicon: 😇
 
 # Social profiles
 github_username: albeertito7
@@ -29,6 +36,9 @@ google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
 # External themes
 #theme: jekyll-swiss
 
+# Handling Reading
+safe: false
+encoding: UTF-8
 exclude:
   - Notes.txt
   - README.*
@@ -38,5 +48,29 @@ exclude:
   - about.md
   - Dockerfile
   - docker*
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-favicon: 😇
+# Serving
+detach: false
+port: 4000
+host: localhost
+baseurl: ""
+show_dir_listing: false
+
+# Where the things are
+source: .
+destination: ./_site
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+sass:
+  sass_dir: _sass
+
+## Do not use tabs in configuration files ##
+## This will either lead to parsing errors, or Jekyll will revert to the default settings ##
+## Use spaces instead ##

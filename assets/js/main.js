@@ -28,6 +28,7 @@ if (isTouchDevice()) {
       html = $('html'),
       body = $('body');
   burger.on('click', function () {
+      console.log("asdf");
     burger.toggleClass('active');
     wrapper.toggleClass('visible');
     html.toggleClass('no-scroll');

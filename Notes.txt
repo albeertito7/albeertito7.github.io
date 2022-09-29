@@ -6,7 +6,6 @@ Notes:
 - Bundler: provides a consistent environment for Ruby projects by tracking and installing the exact "gems" and versions that are needed. Ensures the "gems" you need are present in development, staging, and production. Starting work on a project is as simple as "bundle install".
 - Jekyll: is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site's look and feel, URLs, the data displayed on the page, and more.
 
-
 Get Started:
 
 - Install Ruby
@@ -14,19 +13,13 @@ Get Started:
 - Install Jekyll
 - Install Git
 
-
 To create a new Jekyll site, use:
 
 $ jekyll new
 # creates a Jekyll site in the current directory
 
-
-
 Layout: different ways you want a website to look, and you can specify for every .markdown file a different layout.
-
 Folder _layouts: custom folder jekyll knows where the custom pages are.
-
-
 
 # Project structure
 
@@ -35,21 +28,14 @@ _layouts/ -> templates for different types of pages
 _posts/ -> contains .md and .html blog posts
 _sass/ -> contains styling for website that turns css for our site
 assets/ -> possibly other .css or .scss files
-img/ -> contains images
 
 _config.yml -> store our site configuration data (config and global variables)
-
-
-
 
 _config.yml => configuration & global variables
 _includes/ => contains HTML for elements you'd repeatedly use/embed
 _layouts/ => templates for different types of pages
 _posts/ => contains .md and .html blog posts
 _sass/ => containing .scss styling for website
-
-
-
 
 Jekyll:
 
