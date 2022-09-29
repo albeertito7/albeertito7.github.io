@@ -38,3 +38,34 @@ assets/ -> possibly other .css or .scss files
 img/ -> contains images
 
 _config.yml -> store our site configuration data (config and global variables)
+
+
+
+
+_config.yml => configuration & global variables
+_includes/ => contains HTML for elements you'd repeatedly use/embed
+_layouts/ => templates for different types of pages
+_posts/ => contains .md and .html blog posts
+_sass/ => containing .scss styling for website
+
+
+
+
+Jekyll:
+
+- generador de páginas estáticas para la construcción de webs, principalmente enfocado a blogs,
+aunque nos sirve para construir cualquier tipo de página web.
+
+- Jekyll es utilizado como el motor de creación de todas las páginas que se sirven en Github Pages.
+
+- la idea de Jekyll no es la de utilizar una base de datos para almacenar el contenido como hacen los CMS o Gestores de Contenido tradicionales,
+sino que el contenido de nuestra web se define mediante ficheros de texto en formato markdown.
+
+- comparte con los CMS la capacidad de disponer de plantillas para el diseño web,
+en este caso las plantillas de Jekyll estan basadas en Liquid.
+
+- el proceso de Jekyll combina el contenido de los ficheros en markdown con las plantillas de Liquid para generar un sitio web totalmente creado por ficheros estáticos.
+
+- al tener un sitio web totalmente creado por ficheros estáticos,
+cualquier servidor web, ya sea NGinx, Apache, ...
+nos permitiraá montar de una forma muy sencilla nuestra página web.

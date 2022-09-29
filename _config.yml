@@ -2,7 +2,7 @@ title: Welcome 😊
 email: albertperezdatsira@gmail.com
 description: Personal portfolio by albeertito7
 author: Albert Pérez Datsira
-baseurl: ""
+baseurl: "https://albeertito7.github.io"
 url: "https://albeertito7.github.io"
 
 # Social profiles
@@ -36,6 +36,7 @@ exclude:
   - contact.md
   - blog.md
   - about.md
-
+  - Dockerfile
+  - docker*
 
 favicon: 😇

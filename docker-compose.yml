@@ -1,13 +1,16 @@
-version: '3' # the docker-compose yml files are versioned, with backwards compatibility
+version: '3' # the docker-compose .yml files are versioned, with backwards compatibility
 
 services:
   jekyll: # service name
     build: . # execute "docker build ." (to indicate where is the dockerfile to execute)
-    command: bundle exec jekyll serve --incremental --host 0.0.0.0 # once the container is created, jekyll is executed
+    command: bundle exec jekyll serve --incremental --force_polling --host 0.0.0.0 # once the container is created, jekyll is executed
     ports:
       - "4000:4000" # binding ports
     volumes:
       - .:/app # map the current directory to the container's one (any change will affect inside the container then)
+
+
+# --force_polling => assure the env regeneration by event change
 
 # run "docker-compose up" to create the container and execute the app
 # get "localhost:4000" on the browser to access the app
