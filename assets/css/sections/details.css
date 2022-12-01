@@ -1,4 +1,6 @@
 .details {
+    height: auto;
+    min-height: 100vh;
     position: relative;
     padding: 258px 0 128px; }
     @media only screen and (max-width: 1439px) {

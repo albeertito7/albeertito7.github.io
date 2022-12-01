@@ -15,12 +15,13 @@ nav {
     justify-content: center;
     align-items: center;
     border-bottom: 2px cornflowerblue solid;
-    background: #2f2f2f;
+    /*background: #2f2f2f;*/
     min-height: 7vh;
     width: 100%;
     position: sticky;
     z-index: 1000;
-    top: 0px;
+    top: 0;
+    background: grey;
 }
 
 nav > div {
