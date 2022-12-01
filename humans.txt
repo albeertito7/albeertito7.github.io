@@ -8,5 +8,5 @@
 	Language: English
 	Doctype: HTML
 	Standards: HTML5, CSS3, PSR2, Ruby 2.7
-	Environment: Ruby
+	Environment: Ruby, Jekyll
 	IDE: RubyMine, Visual Studio Code, Notepad++, Photoshop
