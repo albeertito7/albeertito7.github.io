@@ -1,41 +1,165 @@
-title: Welcome 😊
-email: albertperezdatsira@gmail.com
-description: Personal portfolio by albeertito7
-author: Albert Pérez Datsira
-baseurl: ""
-url: "https://albeertito7.github.io"
+## Jekyll Configuration ##
 
-# Social profiles
-github_username: albeertito7
-
-# Add your google-analytics ID here to activate google analytics
-google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
+# jekyll gives you a lot of flexibility to customize how it builds your site.
+# these options can either be specified in a _config.yml or _config.toml file,
+# placed in your site's root directory.
+# https://jekyllrb.com/docs/configuration/
 
 # Jekyll built-in themes
 #theme: minima (default) -> to have new Jekyll site up running with zero configuration
-#theme: jekyll-theme-architect
-#theme: jekyll-theme-cayman
-#theme: jekyll-theme-dinky
-#theme: jekyll-theme-hacker
-#theme: jekyll-theme-leap-day
-#theme: jekyll-theme-merlot
-#theme: jekyll-theme-midnight
-#theme: jekyll-theme-minimal
-#theme: jekyll-theme-modernist
-#theme: jekyll-theme-slate
-#theme: jekyll-theme-tactile
-#theme: jekyll-theme-time-machine
 
-# External themes
-#theme: jekyll-swiss
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is Github Pages Project sites, and
+# doesn't have a custom domain.
+baseurl: ''
 
+# The language of the webpage
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value specified below.
+lang: en
+
+# Additional parameters for datetime localization, optional.
+prefer_datetime_locale:
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Europe/Madrid
+
+## jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+# The main title of the webpage.
+title: MySite
+
+# It will be displayed as the sub-title.
+tagline: My Personal Portfolio
+
+# Used by SEO meta and the Atom feed.
+description: A minimal, responsive, and powerful Jekyll personal portfolio by albeertito7
+
+# Fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: "https://albeertito7.github.io"
+
+favicon: 😇
+
+github:
+    username: albeertito7
+
+social:
+  # Your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer section.
+  name: Albert Pérez Datsira
+  email: albertperezdatsira@gmail.com
+  links:
+    - # The first element serves as the copyright owner's link.
+    - https://github.com/albeertito7
+    - https://es.linkedin.com/in/albert-pérez-datsira
+    - https://www.instagram.com/albeertito7
+
+# Fill in to your verification string from Google Search Console.
+google_site_verification:
+
+# ↑ --------------------------
+## The end of `jekyll-seo-tag` settings.
+
+# Add your Google Analytics ID here to activate google analytics.
+google_analytics:
+    id: UA-XXXXXXXXX-X # out your google-analytics code.
+    # Google Analytics page-views report settings.
+    pv:
+      proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine.
+      cache_path:       # the local PV cache data, friendly to visitors from GFW region.
+
+
+# Prefer color scheme setting.
+#
+# Note: keep empty will follow the system prefer color by default, and
+#       there will be a toggle to switch the theme between dark and light
+#       on the bottom left of the sidebar.
+#
+# Available options:
+#
+#   light - Use the light color scheme.
+#   dark  - Use the dark color scheme.
+theme_mode: light
+
+# The CDN (Content Delivery Network) endpoint for images.
+# Notice that once it is assigned, the CDN url will be added to all image
+# (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+img_cdn:
+
+# The avatar on sidebar, support local or CORS resources.
+avatar:
+
+# Boolean type, the global swuitch for ToC in posts.
+toc: true
+
+paginate: 10
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+# Handling Reading
+safe: false
+encoding: UTF-8
 exclude:
   - Notes.txt
-  - README.*
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - '*.gem'
+  - '*.gemspec'
+  - tools
   - Gemfile*
   - contact.md
   - blog.md
   - about.md
+  - Dockerfile
+  - docker*
+  - node_modules
+  - gulpfile.js
+  - package*.json
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - robots.txt
+  - sitemap.xml
+
+# Serving
+detach: false
+port: 4000
+host: localhost
+show_dir_listing: false
+
+# Where the things are
+source: .
+destination: ./_site
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+sass:
+  sass_dir: _sass
+  style: compressed
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name
 
 
-favicon: 😇
+## Do not use tabs in configuration files ##
+## This will either lead to parsing errors, or Jekyll will revert to the default settings ##
+## Use spaces instead ##
