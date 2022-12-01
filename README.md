@@ -25,7 +25,7 @@
 │       └── Cache
 │           └── [...]
 ├── .jekyll-metadata
-└── index.html # can also be an 'index.md' with valid front matter
+└── index.html # can also be an 'index.md' with valid front matte r
 
 
 _config.yml => Stores configuration data. Many of these options can be specified from the command line executable but it's easier to specify them here so you don't have to remember them.
@@ -51,3 +51,10 @@ _site => This is where the generated site will be placed (by default) once Jekyl
 index.html or index.md => Provided that the file has a front matter section, it will be transformed by Jekyll. The same will happen for any .html, .markdown, .md, or .textile file in your site's root directory or directories not listed above.
 
 
+## Getting Started
+
+get into your machine a compatible Ruby version,
+and a compatbile version of Bundler.
+
+run `bundle`, to download all the gems into your local machine.
+run `bundle jekyll exec serve` to compile and execute the site.

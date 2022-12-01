@@ -3,7 +3,7 @@ version: '3' # the docker-compose .yml files are versioned, with backwards compa
 services:
   jekyll: # service name
     build: . # execute "docker build ." (to indicate where is the dockerfile to execute)
-    command: bundle exec jekyll serve --profile --incremental --trace --force_polling --host 0.0.0.0 # once the container is created, jekyll is executed
+    command: bundle exec jekyll serve --profile --incremental --trace --force_polling --livereload --host 0.0.0.0 # once the container is created, jekyll is executed
     ports:
       - "4000:4000" # binding ports
     volumes:

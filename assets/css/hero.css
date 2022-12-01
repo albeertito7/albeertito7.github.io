@@ -1,7 +1,8 @@
 .main {
     position: relative;
     padding: 270px 0 105px;
-    height: 60vh;
+    height: auto;
+    /*height: 60vh;*/
 }
 
 @media only screen and (max-width: 1279px) {
