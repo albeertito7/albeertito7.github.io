@@ -1,6 +1,6 @@
 /* TEAM */
 	Software Engineer: Albert Perez Datsira
-	Site: https://github.com/albeertito7/
+	Github: https://github.com/albeertito7/
 	Email: albertperezdatsira@gmail.com
 	From: Balaguer, Catalonia, Spain
 
@@ -9,4 +9,4 @@
 	Doctype: HTML
 	Standards: HTML5, CSS3, PSR2, Ruby 2.7
 	Environment: Ruby, Jekyll
-	IDE: RubyMine, Visual Studio Code, Notepad++, Photoshop
+	IDE: Visual Studio Code
