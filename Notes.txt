@@ -55,3 +55,18 @@ en este caso las plantillas de Jekyll estan basadas en Liquid.
 - al tener un sitio web totalmente creado por ficheros estáticos,
 cualquier servidor web, ya sea NGinx, Apache, ...
 nos permitiraá montar de una forma muy sencilla nuestra página web.
+
+
+
+
+/** NEW HOME **/
+
+widget to controll:
+  - music
+    - kind
+    - volume
+  - rain
+    - amount
+  
+
+  https://codepen.io/arickle/pen/XKjMZY

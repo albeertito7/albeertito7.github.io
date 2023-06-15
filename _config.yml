@@ -118,9 +118,6 @@ exclude:
   - '*.gemspec'
   - tools
   - Gemfile*
-  - contact.md
-  - blog.md
-  - about.md
   - Dockerfile
   - docker*
   - node_modules
@@ -130,8 +127,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - robots.txt
-  - sitemap.xml
 
 # Serving
 detach: false
@@ -143,9 +138,9 @@ show_dir_listing: false
 source: .
 destination: ./_site
 plugins_dir: _plugins
+includes_dir: _includes
 layouts_dir: _layouts
 data_dir: _data
-includes_dir: _includes
 sass:
   sass_dir: _sass
   style: compressed
