@@ -6,13 +6,14 @@ FROM ruby:2.7.4-alpine3.14
 RUN apk update && apk add --no-cache build-base gcc cmake git nodejs tzdata
 
 # Update the Ruby bunlder and install Jekyll
-RUN gem update bundler && gem install bundler jekyll
+RUN gem update --system
+RUN gem update bundler
+RUN gem install bundler jekyll
 
 RUN mkdir /app
 WORKDIR /app
 
 COPY Gemfile Gemfile.lock ./
-
 
 # bundle install --binstubs -> will be deprecated
 #RUN bundle binstubs --all
